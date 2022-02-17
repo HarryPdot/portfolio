@@ -1,0 +1,17 @@
+.projects-container {
+    height: 100%;
+}
+
+.project-list {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.project-box {
+    border: 1px solid black;
+    width: 95vw;
+    height: 30vh;
+    border-radius: 25px;
+}
+

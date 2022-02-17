@@ -1,0 +1,27 @@
+.burgericon-container {
+    width: 0;
+    height: 0;
+    position: fixed;
+    right: 2vh;
+    top: 2vh;
+    width: 5vh;
+    cursor: pointer;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+.toggle {
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+.burger-icon {
+    color: white;
+    font-size: 4vh;
+}

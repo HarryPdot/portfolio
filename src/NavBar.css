@@ -1,0 +1,18 @@
+.navbar-container {
+    height: 40vh;
+    width: 15vw;
+    background: rgb(31,169,221);
+    background: linear-gradient(180deg, rgba(31,169,221,1) 50%, rgba(41,225,194,1) 100%);
+    position:fixed;
+    left: 0;
+    top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.navbar-container div {
+    font-size: 30px;
+    cursor: pointer;
+}

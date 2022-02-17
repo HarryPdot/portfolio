@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+.home-container {
+    background-color: rgb(19, 22, 30);
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-box {
+    height: 60vh;
+    width: 85vw;
+}
+
+.home-header {
+    font-size: 5.5vh;
+    font-family: 'Rozha One', serif;
+}
+
+.home-name, .home-prof, .home-prof-2 {
+    margin: 0;
+}
+
+.home-name {
+    color: rgb(216, 230, 238);
+}
+
+.home-prof {
+    color: rgb(33, 179, 216)
+}
+
+.home-prof-2 {
+    margin-bottom: 2vh;
+    color: rgb(40, 219, 197)
+}
+
+.home-description {
+    color: rgb(133, 155, 168);
+    font-size: 2.5vh;
+    width: 90%;
+}
+
+.home-contact {
+    margin-top: 5vh;
+    border: 3px solid rgb(38, 207, 202);
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(19, 22, 30);
+    color: rgb(34, 180, 199);
+    font-size: 3vh;
+    cursor: pointer;
+}
