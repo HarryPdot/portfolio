@@ -4,6 +4,7 @@ import AboutMe from './AboutMe'
 import NavBar from './NavBar'
 import BurgerIcon from './BurgerIcon'
 import Projects from './Projects'
+import Contact from './Contact'
 import { useState } from 'react'
 
 
@@ -18,6 +19,7 @@ function App() {
       <Home className="Home-component"/>
       <AboutMe className="AboutMe-component"/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }

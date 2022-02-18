@@ -7,6 +7,6 @@ html,body, .App, #root {
     height: 100%;
 }
 
-.Home-component, .NavBar-component, .AboutMe-component, .BurgerIcon-component, .Projects {
+.Home-component, .NavBar-component, .AboutMe-component, .BurgerIcon-component, .Projects, .Contact {
     height: 100%;
 }
