@@ -11,7 +11,6 @@ import { useState } from 'react'
 function App() {
   const [navToggle, setNavToggle] = useState(false)
 
-
   return (
     <div className="App">
       <BurgerIcon className="BurgerIcon-component" navToggle={navToggle} setNavToggle={setNavToggle}/>

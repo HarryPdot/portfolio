@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
 .projects-container {
     height: fit-content;
     background-color: rgb(19, 22, 30);
@@ -8,6 +10,7 @@
     padding: 4vh 0 0 4vh;
     color: rgb(224, 238, 246);
     font-size: 4vh;
+    font-family: 'Fira Code', monospace;
 }
 
 .project-list {
@@ -18,7 +21,13 @@
     gap: 3vh;
 }
 
-.project-box {
+.flip-card {
+    width: 85vw;
+    height: 70vh;
+    position: relative;
+}
+
+.project-box, .project-box-detail-container {
     border: 1px solid rgb(77, 99, 111);
     width: 85vw;
     height: 70vh;
@@ -26,54 +35,6 @@
     display: grid;
     grid-template-rows: 10fr 1.5fr;
     background-color: rgb(19, 22, 30);
+    position: absolute;
 }
 
-.project-detail-box {
-    border-bottom: 1px solid rgb(77, 99, 111);
-    color: rgb(138, 160, 173);
-    display: grid;
-    align-items: flex-end;
-}
-
-.project-detail-grid {
-    height: 50%;
-    display: grid;
-    grid-template-rows: 1fr 2fr 4fr;
-    margin-left: 2vh;
-}
-
-.project-detail-num {
-    color: rgb(39, 213, 195);
-}
-
-.project-detail-heading {
-    color: rgb(224, 238, 246);
-}
-
-.project-detail-skill-grid {
-    display: flex;
-    align-items: center;
-    gap: 1vh;
-
-}
-
-.project-detail-skills {
-    border: 1px solid rgb(138, 160, 173);
-    padding: 0.1vh 3vh 0.3vh 3vh;
-    font-size: 2vh;
-
-}
-
-.project-details {
-    font-size: 2vh;
-
-}
-
-.project-view {
-    color: rgb(39, 213, 195);
-    font-size: 3vh;
-    cursor: pointer;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}

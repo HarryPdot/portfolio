@@ -2,7 +2,7 @@ import './Contact.css'
 
 export default function Contact() {
     return (
-        <div className='contact-container'>
+        <div id='contact' className='contact-container'>
             <div className="contact-container-2">
                 <div className='contact-heading'>Contact Me</div>
                 <div className='contact-description'>hello yes this is me I am working yes</div>
@@ -13,6 +13,7 @@ export default function Contact() {
                 </div>
                 <button className='contact-submit'>Submit</button>
             </div>
+            <footer>&copy; Developed By Harry </footer>
         </div>
     )
 }

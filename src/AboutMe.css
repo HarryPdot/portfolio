@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
 .aboutme-container {
     background-color: rgb(19, 22, 30);
     height: 100%;
@@ -26,6 +28,7 @@
     margin: 0 0 2vh 0;
     color: rgb(216, 230, 238);
     font-size: 4vh;
+    font-family: 'Fira Code', monospace;
 }
 
 .aboutme-description {
@@ -34,11 +37,20 @@
 }
 
 .resume-button {
-    margin-top: 3vh;
+    margin-top: 2vh;
+    width: 25vh;
     border: 3px solid rgb(38, 207, 202);
     padding: 5px 10px 5px 10px;
     background-color: rgb(19, 22, 30);
     color: rgb(34, 180, 199);
     font-size: 2.5vh;
     cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    text-decoration: none;
+}
+
+.aboutme-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
 }

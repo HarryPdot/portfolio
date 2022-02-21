@@ -1,0 +1,59 @@
+.project-box {
+    z-index: 1;
+}
+
+.project-box-detail-container {
+    display: grid;
+    grid-template-rows: 2fr 8fr 1.5fr;
+}
+
+.project-detail-box {
+    color: rgb(138, 160, 173);
+    display: grid;
+    align-items: flex-end;
+}
+
+.project-detail-grid {
+    height: 50%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr;
+    margin-left: 2vh;
+}
+
+.project-detail-num {
+    color: rgb(39, 213, 195);
+}
+
+.project-detail-heading {
+    color: rgb(224, 238, 246);
+}
+
+.project-detail-skill-grid {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+
+}
+
+.project-detail-skills {
+    border: 1px solid rgb(138, 160, 173);
+    padding: 0.1vh 3vh 0.3vh 3vh;
+    font-size: 2vh;
+
+}
+
+.project-details {
+    font-size: 2vh;
+
+}
+
+.project-view {
+    color: rgb(39, 213, 195);
+    font-size: 3vh;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Code', monospace;    
+    border-top: 1px solid rgb(77, 99, 111);
+}

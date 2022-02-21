@@ -1,10 +1,11 @@
 import './Home.css'
+import { Link } from 'react-scroll'
 
 export default function Home() {
 
 
     return (
-        <div className='home-container'>
+        <div id='home' className='home-container'>
             <div className='home-box'>
                 <header className='home-header'>
                     <div className='home-name'>Harry Pham,</div>
@@ -15,7 +16,7 @@ export default function Home() {
                     My best days are when I am working with a computer in front of me.
                 </div>
                 <button className='home-contact'>
-                    Contact me
+                <Link to="contact" spy={true} smooth={true} duration={0}>Contact Me</Link>
                 </button>
             </div>
         </div>

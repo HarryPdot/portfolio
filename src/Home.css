@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
 .home-container {
     background-color: rgb(19, 22, 30);
     height: 100%;
@@ -48,4 +50,5 @@
     color: rgb(34, 180, 199);
     font-size: 3vh;
     cursor: pointer;
+    font-family: 'Fira Code', monospace;
 }

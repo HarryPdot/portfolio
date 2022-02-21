@@ -6,6 +6,7 @@
     top: 2vh;
     width: 5vh;
     cursor: pointer;
+    z-index: 100;
 }
 
 .toggle input {
@@ -24,4 +25,5 @@
 .burger-icon {
     color: white;
     font-size: 4vh;
+
 }
