@@ -8,7 +8,7 @@ export default function ProjectBox({ project, setProjects, projects }) {
         projectArr[index].arr.status = !projectArr[index].arr.status
         setProjects([...projectArr])
     }
-    console.log(project)
+
     var skillArr = project.arr.skills.split(',')
     return (
         <div className='project-box'>
@@ -18,7 +18,6 @@ export default function ProjectBox({ project, setProjects, projects }) {
                     <div></div>
                 </div>
                 <div className='project-detail-box animate__animated animate__fadeIn'>
-
                     <div className='project-detail-grid'>
                         <div className='project-detail-heading'><span className='project-detail-num'>01. </span>{project.arr.name}</div>
                         <div className='project-detail-skill-grid'>

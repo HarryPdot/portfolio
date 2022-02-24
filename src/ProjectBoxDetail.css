@@ -20,9 +20,16 @@
 
 .project-box-details-grid {
     padding: 0 2vh 2vh 2vh;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
 }
 
 .project-box-detail-title {
+    color: rgb(39, 213, 195);
+}
+
+.project-box-detail-title span {
     color: rgb(224, 238, 246);
 }
 

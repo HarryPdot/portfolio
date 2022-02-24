@@ -48,8 +48,11 @@
     resize: none;
 }
 
+.contact-submit-grid {
+    margin-top: 3vh;
+}
+
 .contact-submit {
-    margin-top: 2vh;
     border: 3px solid rgb(38, 207, 202);
     padding: 5px 10px 5px 10px;
     background-color: rgb(19, 22, 30);
@@ -58,6 +61,7 @@
     width: 100%;
     cursor: pointer;
     font-family: 'Fira Code', monospace;
+    text-decoration: none;
 }
 
 footer {
