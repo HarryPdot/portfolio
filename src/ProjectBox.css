@@ -1,5 +1,6 @@
 .project-box {
     z-index: 1;
+    overflow: hidden;
 }
 
 .project-box-detail-container {
@@ -10,15 +11,29 @@
 .project-detail-box {
     color: rgb(138, 160, 173);
     display: grid;
-    align-items: flex-end;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: flex-start;
+
+}
+
+.project-images {
+    height: 30vh;
+    filter:brightness(70%)
+}
+
+.project-image-container {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .project-detail-grid {
-    height: 50%;
-    display: grid;
-    grid-template-rows: 1fr 2fr 4fr;
-    margin-left: 2vh;
+    /* display: grid;
+    grid-template-rows: 1fr 2fr 4fr; */
+    margin: 2vh 0 0 2vh;
 }
+
 
 .project-detail-num {
     color: rgb(39, 213, 195);
@@ -57,3 +72,4 @@
     font-family: 'Fira Code', monospace;    
     border-top: 1px solid rgb(77, 99, 111);
 }
+
