@@ -31,15 +31,15 @@
 .project-detail-skill-grid {
     display: flex;
     align-items: center;
-    gap: 1vh;
-
+    gap: 2vh;
+    flex-wrap: wrap;
+    margin: 2vh 0 2vh 0 ;
 }
 
 .project-detail-skills {
     border: 1px solid rgb(138, 160, 173);
     padding: 0.1vh 3vh 0.3vh 3vh;
     font-size: 2vh;
-
 }
 
 .project-details {

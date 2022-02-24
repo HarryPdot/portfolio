@@ -8,7 +8,7 @@ export default function Home() {
         <div id='home' className='home-container'>
             <div className='home-box'>
                 <header className='home-header'>
-                    <div className='home-name'>Harry ham,</div>
+                    <div className='home-name'>Harry Pham,</div>
                     <div className='home-prof'>Full stack</div>
                     <div className='home-prof-2'> developer</div>
                 </header>
