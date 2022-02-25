@@ -40,7 +40,9 @@
 .project-box-detail-skills-grid {
     display: flex;
     align-items: center;
-    gap: 1vh;
+    gap: 2vh;
+    flex-wrap: wrap;
+    margin: 2vh 0 2vh 0 ;
 
 }
 
