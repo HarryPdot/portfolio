@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap');
 
 .projects-container {
     height: fit-content;
@@ -7,9 +7,9 @@
 }
 
 .project-heading {
-    padding: 4vh 0 0 4vh;
+    padding: 2vh 0 0 10%;
     color: rgb(224, 238, 246);
-    font-size: 4vh;
+    font-size: 26px;
     font-family: 'Fira Code', monospace;
 }
 
@@ -18,18 +18,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 3vh;
+    gap: 2vh;
 }
 
 .flip-card {
-    width: 85vw;
+    width: 80vw;
     height: 70vh;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .project-box, .project-box-detail-container {
     border: 1px solid rgb(77, 99, 111);
-    width: 85vw;
+    width: 80vw;
     height: 70vh;
     border-radius: 25px;
     display: grid;

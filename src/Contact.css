@@ -15,20 +15,20 @@
 .contact-heading {
     padding: 2vh 0 0 0;
     color: rgb(216, 230, 238);
-    font-size: 4vh;
+    font-size: 26px;
     font-family: 'Fira Code', monospace;
 }
 
 .contact-description {
-    font-size: 2.5vh;
+    font-size: 14px;
     margin-top: 3vh;
 }
 
 .contact-details {
     display: flex;
     flex-direction: column;
-    margin-top: 3vh;
-    gap: 2vh;
+    margin-top: 2vh;
+    gap: 1vh;
 }
 
 .contact-name, .contact-email, .contact-message {
@@ -38,30 +38,31 @@
     padding-left: 2vh;
     background-color: rgb(19, 22, 30);
     color: rgb(68, 87, 99);
-    font-size: 2.2vh;
+    font-size: 14px;
 }
 
 .contact-message {
     height: 25vh;
     padding-top: 1vh;
-    font-size: 2.5vh;
+    font-size: 14px;
     resize: none;
 }
 
 .contact-submit-grid {
-    margin-top: 3vh;
+    margin-top: 1vh;
 }
 
 .contact-submit {
-    border: 3px solid rgb(38, 207, 202);
+    border: 2px solid rgb(38, 207, 202);
     padding: 5px 10px 5px 10px;
     background-color: rgb(19, 22, 30);
     color: rgb(34, 180, 199);
-    font-size: 3vh;
-    width: 100%;
+    font-size: 20px;
     cursor: pointer;
     font-family: 'Fira Code', monospace;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 footer {

@@ -16,7 +16,7 @@ export default function Home() {
                     My best days are when I am working with a computer in front of me.
                 </div>
                 <button className='home-contact'>
-                <Link to="contact" spy={true} smooth={true} duration={0}>Contact Me</Link>
+                    <Link to="contact" spy={true} smooth={true} duration={0}>Contact Me</Link>
                 </button>
             </div>
         </div>

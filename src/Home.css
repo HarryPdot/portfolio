@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap');
 
 .home-container {
     background-color: rgb(19, 22, 30);
@@ -11,20 +11,22 @@
 
 .home-box {
     height: 60vh;
-    width: 85vw;
+    width: 80vw;
 }
 
 .home-header {
-    font-size: 5.5vh;
+    font-size: 35px;
     font-family: 'Rozha One', serif;
 }
 
 .home-name, .home-prof, .home-prof-2 {
     margin: 0;
+    margin: -17px 0 -17px 0;
 }
 
 .home-name {
     color: rgb(216, 230, 238);
+
 }
 
 .home-prof {
@@ -32,23 +34,23 @@
 }
 
 .home-prof-2 {
-    margin-bottom: 2vh;
+    margin-bottom:auto;
     color: rgb(40, 219, 197)
 }
 
 .home-description {
     color: rgb(133, 155, 168);
-    font-size: 2vh;
+    font-size: 14px;
     width: 90%;
 }
 
 .home-contact {
-    margin-top: 5vh;
-    border: 3px solid rgb(38, 207, 202);
+    margin-top: 2vh;
+    border: 2px solid rgb(38, 207, 202);
     padding: 5px 10px 5px 10px;
     background-color: rgb(19, 22, 30);
     color: rgb(34, 180, 199);
-    font-size: 3vh;
+    font-size: 20px;
     cursor: pointer;
     font-family: 'Fira Code', monospace;
 }

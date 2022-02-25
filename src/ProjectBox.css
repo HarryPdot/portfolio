@@ -15,10 +15,7 @@
     position: relative;
     height: 100%;
     animation: fadeOut 8ss ease-in-out;
-}
-
-.image-grid {
-    
+    text-align: justify;
 }
 
 .project-images {
@@ -57,6 +54,7 @@
 
 .project-detail-heading {
     color: rgb(224, 238, 246);
+    font-size: 16px;
 }
 
 .project-detail-skill-grid {
@@ -70,17 +68,17 @@
 .project-detail-skills {
     border: 1px solid rgb(138, 160, 173);
     padding: 0.1vh 2.5vh 0.3vh 2.5vh;
-    font-size: 2vh;
+    font-size: 14px;
 }
 
 .project-details {
-    font-size: 2vh;
+    font-size: 14px;
 
 }
 
 .project-view {
     color: rgb(39, 213, 195);
-    font-size: 3vh;
+    font-size: 20px;
     cursor: pointer;
     display: grid;
     justify-content: center;

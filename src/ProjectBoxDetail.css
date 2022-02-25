@@ -11,7 +11,7 @@
     height: 4vh;
     border: 1px solid rgb(138, 160, 173);
     padding: 0.1vh 3vh 0.3vh 3vh;
-    font-size: 2vh;
+    font-size: 14px;
     color: rgb(138, 160, 173);
     margin-right: 2vh;
     background-color: rgb(19, 22, 30);
@@ -23,10 +23,12 @@
     display: flex;
     gap: 2vh;
     flex-direction: column;
+    text-align: justify;
 }
 
 .project-box-detail-title {
     color: rgb(39, 213, 195);
+    font-size: 16px;
 }
 
 .project-box-detail-title span {
@@ -35,6 +37,7 @@
 
 .project-box-detail-description {
     color: rgb(138, 160, 173);
+    font-size: 14px;
 }
 
 .project-box-detail-skills-grid {
@@ -49,7 +52,7 @@
 .project-box-detail-skills {
     border: 1px solid rgb(138, 160, 173);
     padding: 0.1vh 3vh 0.3vh 3vh;
-    font-size: 2vh;
+    font-size: 14px;
     color: rgb(138, 160, 173);
 }
 
@@ -57,7 +60,7 @@
 .project-box-detail-demo {
     border-top: 1px solid rgb(77, 99, 111);
     color: rgb(39, 213, 195);
-    font-size: 3vh;
+    font-size: 20px;
     cursor: pointer;
     display: grid;
     justify-content: center;
