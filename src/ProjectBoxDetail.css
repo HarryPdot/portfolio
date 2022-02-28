@@ -23,7 +23,6 @@
     display: flex;
     gap: 2vh;
     flex-direction: column;
-    text-align: justify;
 }
 
 .project-box-detail-title {

@@ -40,3 +40,24 @@
     position: absolute;
 }
 
+@media only screen and (min-width: 850px) {
+    .projects-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-container-2 {
+        width: 70%;
+    }
+
+    .flip-card, .project-box, .project-box-detail-container {
+        width: 320px;
+        height: 530px;
+    }
+
+    .project-list {
+        flex-wrap: wrap;
+        flex-direction: inherit;
+        justify-content: center;
+    }
+}

@@ -17,8 +17,8 @@ function App() {
       {navToggle && <NavBar className="NavBar-component"/>}
       <Home className="Home-component"/>
       <AboutMe className="AboutMe-component"/>
-      <Projects/>
-      <Contact/>
+      <Projects className="Projects"/>
+      <Contact className="Contact"/>
     </div>
   );
 }

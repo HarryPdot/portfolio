@@ -15,7 +15,6 @@
     position: relative;
     height: 100%;
     animation: fadeOut 8ss ease-in-out;
-    text-align: justify;
 }
 
 .project-images {
@@ -86,4 +85,3 @@
     font-family: 'Fira Code', monospace;    
     border-top: 1px solid rgb(77, 99, 111);
 }
-

@@ -10,8 +10,12 @@
 }
 
 .home-box {
-    height: 60vh;
+    height: 100vh;
     width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
 }
 
 .home-header {
@@ -26,7 +30,6 @@
 
 .home-name {
     color: rgb(216, 230, 238);
-
 }
 
 .home-prof {
@@ -53,4 +56,19 @@
     font-size: 20px;
     cursor: pointer;
     font-family: 'Fira Code', monospace;
+    width: fit-content;
+}
+
+@media only screen and (min-width: 550px) {
+    .home-header {
+        font-size: 3.5rem;
+    }
+
+    .home-description {
+        font-size: 1.1rem;
+    }
+
+    .home-contact:hover {
+        background-color: rgb(15, 45, 122);
+    }
 }

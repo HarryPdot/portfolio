@@ -9,6 +9,13 @@ html,body, .App, #root {
     background-color: rgb(19, 22, 30);
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
 .Home-component, .NavBar-component, .AboutMe-component, .BurgerIcon-component, .Projects, .Contact {
     height: 100%;
+    width: 100%;
 }
+

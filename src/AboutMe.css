@@ -2,26 +2,29 @@
 
 .aboutme-container {
     background-color: rgb(19, 22, 30);
-    height: 100%;
-    display: flex;
+    height: fit-content;
+    display: grid;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .aboutme-container-2 {
     width: 80vw;
-    height: 95vh
+    height: 100%;
 }
 
 .aboutme-image {
     margin-top: 3vh;
     display: flex;
     justify-content: center;
+
 }
 
 .aboutme-container img {
-    width: 100%;
-    height: 30vh
+    width: 50vw;
+    height: 100%;
+    max-width: 270px;
 }
 
 .aboutme-title {
@@ -34,7 +37,6 @@
 .aboutme-description {
     color: rgb(133, 155, 168);
     font-size: 14px;
-    text-align: justify;
 }
 
 .resume-button {
@@ -55,4 +57,38 @@
     display: flex;
     flex-direction: column;
     margin-top: 2vh;
+}
+
+@media only screen and (min-width: 850px) {
+    
+    .aboutme-container-2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutme-container-3 {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        gap: 3vw;
+    }
+
+    .aboutme-container img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .aboutme-image {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .aboutme-description {
+        font-size: 16px;
+    }
 }

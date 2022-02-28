@@ -13,16 +13,18 @@ export default function Projects() {
 
     return (
         <div id='project' className='projects-container'>
-            <div className='project-heading'>Projects</div>
-            <div className='project-list'>
-                {projects.map(project => {
-                    return (
-                    <div className='flip-card'>
-                        {project.arr.status && <ProjectBox project={project} setProjects={setProjects} projects={projects}/>}
-                        {!project.arr.status && <ProjectBoxDetail project={project} setProjects={setProjects} projects={projects}/>}
-                    </div>
-                    )
-                })}
+            <div className="project-container-2">
+                <div className='project-heading'>Projects</div>
+                <div className='project-list'>
+                    {projects.map(project => {
+                        return (
+                        <div className='flip-card'>
+                            {project.arr.status && <ProjectBox project={project} setProjects={setProjects} projects={projects}/>}
+                            {!project.arr.status && <ProjectBoxDetail project={project} setProjects={setProjects} projects={projects}/>}
+                        </div>
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )
