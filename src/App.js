@@ -5,20 +5,50 @@ import NavBar from './NavBar'
 import BurgerIcon from './BurgerIcon'
 import Projects from './Projects'
 import Contact from './Contact'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
-
-function App() {
+function App() {  
   const [navToggle, setNavToggle] = useState(false)
+
+  function FadeInSection(props) {
+    const [isVisible, setVisible] = useState(false);
+    const domRef = useRef();
+    useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => setVisible(entry.isIntersecting));
+      });
+      observer.observe(domRef.current);
+    }, []);
+    return (
+      <div
+        className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+        ref={domRef}
+      >
+        {props.children}
+      </div>
+    );
+  }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="App">
       <BurgerIcon className="BurgerIcon-component" navToggle={navToggle} setNavToggle={setNavToggle}/>
       {navToggle && <NavBar className="NavBar-component"/>}
-      <Home className="Home-component"/>
-      <AboutMe className="AboutMe-component"/>
-      <Projects className="Projects"/>
-      <Contact className="Contact"/>
+      <FadeInSection>
+        <Home className="Home-component"/>
+      </FadeInSection>
+      <FadeInSection>
+        <AboutMe className="AboutMe-component"/>
+      </FadeInSection>
+      <FadeInSection>
+        <Projects className="Projects"/>
+      </FadeInSection>
+      <FadeInSection>
+        <Contact className="Contact"/>
+      </FadeInSection>
     </div>
   );
 }

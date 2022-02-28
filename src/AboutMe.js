@@ -14,8 +14,8 @@ export default function AboutMe() {
                     </div>
                     <div className='aboutme-grid'>
                         <div className='aboutme-title'>About Me</div>
-                        <div className='aboutme-description'> My best days are when I am working with a computer in front of me. I have a love of learning and learn new programs very quickly. Looking at my career trajectory I decided to make a change and study Software Engineering.  </div>
-                        <p className="aboutme-description"> I am enjoying front-end developing and looking forward to creating new applications that I am interested in. My best days are when I am working with a computer in front of me. I have a love of learning and learn new programs very quickly. Looking at my career trajectory I decided to make a change and study Software Engineering. My best days are when I am working with a computer in front of me. I have a love of learning and learn new programs very quickly. Looking at my career trajectory I decided to make a change and study Software Engineering.My best days are when I am working with a computer in front of me. I have a love of learning and learn new programs very quickly. Looking at my career trajectory I decided to make a change and study Software Engineering.</p>
+                        <div className='aboutme-description'> I am a software developer, and I previously studied business. I have a passion for learning, and with how broad program languages are, I find it very interesting how everything I learnt can connect with one another. I am open for opportunities that will expand my knowledge, and would love to work with a team with similar mindsets.  </div>
+                        <p className="aboutme-description"> My hobbies are playing strategic games and spending time with my dogs. I try to stay proactive with a healthy lifestyle going to the gym, and trying to eat healthy.</p>
                         <a href={resume} target="_blank" className='resume-button' >View my resume</a>
                     </div>
                 </div>

@@ -12,6 +12,7 @@ html,body, .App, #root {
 .App {
     display: flex;
     flex-direction: column;
+    gap: 5vh;
 }
 
 .Home-component, .NavBar-component, .AboutMe-component, .BurgerIcon-component, .Projects, .Contact {
@@ -19,3 +20,23 @@ html,body, .App, #root {
     width: 100%;
 }
 
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.3s ease-out, transform 0.5s ease-out;
+    will-change: opacity, visibility;
+  }
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+@media only screen and (min-width: 850px) {
+    .App {
+        width: 80%;
+        margin: 0 auto 0 auto
+    }
+}
