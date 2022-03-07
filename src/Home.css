@@ -47,7 +47,7 @@
     width: 90%;
 }
 
-.home-contact {
+.home-contact, .home-github {
     margin-top: 2vh;
     border: 2px solid rgb(38, 207, 202);
     padding: 5px 10px 5px 10px;
@@ -59,12 +59,15 @@
     width: fit-content;
 }
 
-.yes {
-    color: white;
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    position: absolute;
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.home-github a {
+    color: rgb(34, 180, 199);
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 550px) {
@@ -76,7 +79,9 @@
         font-size: 1.1rem;
     }
 
-    .home-contact:hover {
+    .home-contact:hover, .home-github:hover {
         background-color: rgb(15, 45, 122);
     }
+    
+
 }

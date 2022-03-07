@@ -37,7 +37,9 @@ export default function Contact() {
                 </div>
             </div>
 
-            <footer>&copy; Developed By Harry </footer>
+            <footer><a href="https://github.com/HarryPdot/portfolio" target={'_blank'}>Designed and Developed By Harry Pham<br/> Portfolio GitHub</a> 
+            </footer>
+
         </div>
     )
 }

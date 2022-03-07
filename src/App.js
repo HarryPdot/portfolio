@@ -5,6 +5,7 @@ import NavBar from './NavBar'
 import BurgerIcon from './BurgerIcon'
 import Projects from './Projects'
 import Contact from './Contact'
+import Links from './Links'
 import { useState, useRef, useEffect } from 'react'
 
 function App() {  
@@ -36,6 +37,7 @@ function App() {
   return (
     <div className="App">
       <BurgerIcon className="BurgerIcon-component" navToggle={navToggle} setNavToggle={setNavToggle}/>
+      <Links className="GitHub Component"></Links>
       {navToggle && <NavBar className="NavBar-component"/>}
       <FadeInSection>
         <Home className="Home-component"/>

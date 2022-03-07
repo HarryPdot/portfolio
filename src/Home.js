@@ -15,9 +15,13 @@ export default function Home() {
                 <div className='home-description'>
                     My best days are when I am working with a computer in front of me.
                 </div>
-                <button className='home-contact'>
-                    <Link to="contact" spy={true} smooth={true} duration={0}>Contact Me</Link>
-                </button>
+                <div className='buttons'>
+                    <button className='home-contact'>
+                        <Link to="contact" spy={true} smooth={true} duration={0}>Contact Me</Link>
+                    </button>
+                    {/* <button className='home-github' > <a href='https://github.com/' target="_blank">GitHub</a> </button> */}
+                </div>
+
             </div>
         </div>
     )

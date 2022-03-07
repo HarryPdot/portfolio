@@ -67,6 +67,17 @@
 }
 
 footer {
-    color: rgb(28, 75, 103);
     margin-bottom: 1vh;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(34, 180, 199);
+    text-decoration: none;
+    transition:linear 0.1s;
+}
+
+footer a:hover {
+    color: rgb(15, 45, 122);
 }

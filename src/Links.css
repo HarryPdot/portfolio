@@ -1,0 +1,24 @@
+.github-container {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vh;
+    width: 5vh;
+    cursor: pointer;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link {
+    color: white;
+    font-size: 4vh;
+    transition:linear 0.1s;
+}
+
+
+@media only screen and (min-width: 550px) {
+    .link:hover {
+        color: rgb(15, 45, 122);
+    }
+}
