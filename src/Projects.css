@@ -38,6 +38,7 @@
     grid-template-rows: 10fr 1.5fr;
     background-color: rgb(19, 22, 30);
     position: absolute;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 850px) {
