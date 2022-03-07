@@ -19,7 +19,6 @@ export default function Home() {
                     <button className='home-contact'>
                         <Link to="contact" spy={true} smooth={true} duration={0}>Contact Me</Link>
                     </button>
-                    {/* <button className='home-github' > <a href='https://github.com/' target="_blank">GitHub</a> </button> */}
                 </div>
 
             </div>

@@ -91,4 +91,8 @@
     .aboutme-description {
         font-size: 16px;
     }
+
+    .resume-button:hover {
+        background-color: rgb(15, 45, 70);
+    }
 }
