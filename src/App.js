@@ -1,11 +1,11 @@
 import './App.css';
-import Home from './Home'
-import AboutMe from './AboutMe'
-import NavBar from './NavBar'
-import BurgerIcon from './BurgerIcon'
-import Projects from './Projects'
-import Contact from './Contact'
-import Links from './Links'
+import Home from './Components/home/Home'
+import AboutMe from './Components/about/AboutMe'
+import NavBar from './Components/links/NavBar'
+import BurgerIcon from './Components/links/BurgerIcon'
+import Projects from './Components/projects/Projects'
+import Contact from './Components/contact/Contact'
+import Links from './Components/links/Links'
 import { useState, useRef, useEffect } from 'react'
 
 function App() {  
