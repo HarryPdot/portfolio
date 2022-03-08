@@ -82,6 +82,12 @@ footer a:hover {
     color: rgb(15, 45, 122);
 }
 
+.disabled { 
+    pointer-events: none;
+    color: grey;
+    border: 2px solid grey;
+}
+
 @media only screen and (min-width: 550px) {
     .contact-submit:hover {
         background-color: rgb(15, 45, 70);

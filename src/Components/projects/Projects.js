@@ -16,9 +16,9 @@ export default function Projects() {
             <div className="project-container-2">
                 <div className='project-heading'>Projects</div>
                 <div className='project-list'>
-                    {projects.map(project => {
+                    {projects.map((project, i) => {
                         return (
-                        <div className='flip-card'>
+                        <div className='flip-card' key={i}>
                             {project.arr.status && <ProjectBox project={project} setProjects={setProjects} projects={projects}/>}
                             {!project.arr.status && <ProjectBoxDetail project={project} setProjects={setProjects} projects={projects}/>}
                         </div>

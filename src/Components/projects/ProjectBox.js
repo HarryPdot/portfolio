@@ -21,8 +21,8 @@ export default function ProjectBox({ project, setProjects, projects }) {
                     <div className='project-detail-grid'>
                         <div className='project-detail-heading'><span className='project-detail-num'>01. </span>{project.arr.name}</div>
                         <div className='project-detail-skill-grid'>
-                            {skillArr.map(skill => {
-                                return <div className="project-detail-skills">{skill}</div>
+                            {skillArr.map((skill, i) => {
+                                return <div className="project-detail-skills" key={i}>{skill}</div>
                             })}
                         </div>
                         <div className="project-details">{project.arr.description}</div>

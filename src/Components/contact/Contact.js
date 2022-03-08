@@ -29,11 +29,10 @@ export default function Contact() {
                 <div className='contact-description'>hello yes this is me I am working yes</div>
                 <div className='contact-details'>
                    <input onChange={handleName} className="contact-name" type="text" placeholder='<Name>'/>
-                   {/* <input className="contact-email" type="email" placeholder='<Email>' /> */}
                    <textarea onChange={handleMessage}className="contact-message" type="text" placeholder='<Message>'></textarea>
                 </div>
                 <div className='contact-submit-grid'>
-                    <a href={email} className='contact-submit'>Submit</a>
+                    <a href={email} className={name.length && message.length ? `contact-submit` : `contact-submit disabled`}>Submit</a>
                 </div>
             </div>
 
