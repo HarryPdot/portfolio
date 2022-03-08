@@ -1,75 +1,73 @@
 /* project-box */
 .close-btn-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
 }
 
 .close-btn {
-    width: 12vh;
-    height: 4vh;
-    border: 1px solid rgb(138, 160, 173);
-    padding: 0.1vh 3vh 0.3vh 3vh;
-    font-size: 14px;
-    color: rgb(138, 160, 173);
-    margin-right: 2vh;
-    background-color: rgb(19, 22, 30);
-    cursor: pointer;
+  width: 12vh;
+  height: 4vh;
+  border: 1px solid rgb(138, 160, 173);
+  padding: 0.1vh 3vh 0.3vh 3vh;
+  font-size: 14px;
+  color: rgb(138, 160, 173);
+  margin-right: 2vh;
+  background-color: rgb(19, 22, 30);
+  cursor: pointer;
 }
 
 .project-box-details-grid {
-    padding: 0 2vh 2vh 2vh;
-    display: flex;
-    gap: 2vh;
-    flex-direction: column;
+  padding: 0 2vh 2vh 2vh;
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
 }
 
 .project-box-detail-title {
-    color: rgb(39, 213, 195);
-    font-size: 16px;
+  color: rgb(39, 213, 195);
+  font-size: 16px;
 }
 
 .project-box-detail-title span {
-    color: rgb(224, 238, 246);
+  color: rgb(224, 238, 246);
 }
 
 .project-box-detail-description {
-    color: rgb(138, 160, 173);
-    font-size: 14px;
+  color: rgb(138, 160, 173);
+  font-size: 14px;
 }
 
 .project-box-detail-skills-grid {
-    display: flex;
-    align-items: center;
-    gap: 2vh;
-    flex-wrap: wrap;
-    margin: 2vh 0 2vh 0 ;
-
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  flex-wrap: wrap;
+  margin: 2vh 0 2vh 0;
 }
 
 .project-box-detail-skills {
-    border: 1px solid rgb(138, 160, 173);
-    padding: 0.1vh 3vh 0.3vh 3vh;
-    font-size: 14px;
-    color: rgb(138, 160, 173);
+  border: 1px solid rgb(138, 160, 173);
+  padding: 0.1vh 3vh 0.3vh 3vh;
+  font-size: 14px;
+  color: rgb(138, 160, 173);
 }
 
-
 .project-box-detail-demo {
-    border-top: 1px solid rgb(77, 99, 111);
-    color: rgb(39, 213, 195);
-    font-size: 20px;
-    cursor: pointer;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Fira Code', monospace;
-    text-decoration: none;
+  border-top: 1px solid rgb(77, 99, 111);
+  color: rgb(39, 213, 195);
+  font-size: 20px;
+  cursor: pointer;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 550px) {
-    .project-box-detail-demo:hover {
-        background-color: rgb(15, 45, 70);
-    }
+  .project-box-detail-demo:hover {
+    background-color: rgb(15, 45, 70);
+  }
 }

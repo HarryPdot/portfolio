@@ -1,98 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap");
 
 .aboutme-container {
-    background-color: rgb(19, 22, 30);
-    height: fit-content;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: rgb(19, 22, 30);
+  height: fit-content;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .aboutme-container-2 {
-    width: 80vw;
-    height: 100%;
+  width: 80vw;
+  height: 100%;
 }
 
 .aboutme-image {
-    margin-top: 3vh;
-    display: flex;
-    justify-content: center;
-
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutme-container img {
-    /* width: 50vw; */
-    height: 100%;
-    max-width: 100%;
+  /* width: 50vw; */
+  height: 100%;
+  max-width: 100%;
 }
 
 .aboutme-title {
-    margin: 0 0 2vh 0;
-    color: rgb(216, 230, 238);
-    font-size: 26px;
-    font-family: 'Fira Code', monospace;
+  margin: 0 0 2vh 0;
+  color: rgb(216, 230, 238);
+  font-size: 26px;
+  font-family: "Fira Code", monospace;
 }
 
 .aboutme-description {
-    color: rgb(133, 155, 168);
-    font-size: 14px;
+  color: rgb(133, 155, 168);
+  font-size: 14px;
 }
 
 .resume-button {
-    margin-top: 2vh;
-    border: 2px solid rgb(38, 207, 202);
-    padding: 5px 10px 5px 10px;
-    background-color: rgb(19, 22, 30);
-    color: rgb(34, 180, 199);
-    font-size: 20px;
-    cursor: pointer;
-    font-family: 'Fira Code', monospace;
-    text-decoration: none;
-    text-align: center;
-    width: fit-content;
+  margin-top: 2vh;
+  border: 2px solid rgb(38, 207, 202);
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(19, 22, 30);
+  color: rgb(34, 180, 199);
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  z-index: ;
 }
 
 .aboutme-grid {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
 }
 
 @media only screen and (min-width: 850px) {
-    
-    .aboutme-container-2 {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-    }
+  .aboutme-container-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
 
-    .aboutme-container-3 {
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        justify-content: center;
-        align-items: flex-start;
-        width: 70%;
-        gap: 3vw;
-    }
+  .aboutme-container-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    gap: 3vw;
+  }
 
-    .aboutme-container img {
-        width: 100%;
-        max-width: 450px;
-    }
+  .aboutme-container img {
+    width: 100%;
+    max-width: 450px;
+  }
 
-    .aboutme-image {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
+  .aboutme-image {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 
-    .aboutme-description {
-        font-size: 16px;
-    }
+  .aboutme-description {
+    font-size: 16px;
+  }
 
-    .resume-button:hover {
-        background-color: rgb(15, 45, 70);
-    }
+  .resume-button:hover {
+    background-color: rgb(15, 45, 70);
+  }
 }

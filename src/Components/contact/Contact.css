@@ -1,95 +1,97 @@
 .contact-container {
-    height: 100%;
-    color: rgb(138, 160, 173);
-    background-color: rgb(19, 22, 30);
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-    align-items: center;
+  height: 100%;
+  color: rgb(138, 160, 173);
+  background-color: rgb(19, 22, 30);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-container-2 {
-    width: 80%;
-    height: 90vh;
+  width: 80%;
+  height: 90vh;
 }
 
 .contact-heading {
-    padding: 2vh 0 0 0;
-    color: rgb(216, 230, 238);
-    font-size: 26px;
-    font-family: 'Fira Code', monospace;
+  padding: 2vh 0 0 0;
+  color: rgb(216, 230, 238);
+  font-size: 26px;
+  font-family: "Fira Code", monospace;
 }
 
 .contact-description {
-    font-size: 14px;
-    margin-top: 3vh;
+  font-size: 14px;
+  margin-top: 3vh;
 }
 
 .contact-details {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2vh;
-    gap: 1vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  gap: 1vh;
 }
 
-.contact-name, .contact-email, .contact-message {
-    border: 2px solid rgb(58, 73, 84);
-    height: 6vh;
-    width: 100%;
-    padding-left: 2vh;
-    background-color: rgb(19, 22, 30);
-    color: rgb(68, 87, 99);
-    font-size: 14px;
+.contact-name,
+.contact-email,
+.contact-message {
+  border: 2px solid rgb(58, 73, 84);
+  height: 6vh;
+  width: 100%;
+  padding-left: 2vh;
+  background-color: rgb(19, 22, 30);
+  color: rgb(68, 87, 99);
+  font-size: 14px;
 }
 
 .contact-message {
-    height: 25vh;
-    padding-top: 1vh;
-    font-size: 14px;
-    resize: none;
+  height: 25vh;
+  padding-top: 1vh;
+  font-size: 14px;
+  resize: none;
 }
 
 .contact-submit-grid {
-    margin-top: 1vh;
+  margin-top: 1vh;
 }
 
 .contact-submit {
-    border: 2px solid rgb(38, 207, 202);
-    padding: 5px 10px 5px 10px;
-    background-color: rgb(19, 22, 30);
-    color: rgb(34, 180, 199);
-    font-size: 20px;
-    cursor: pointer;
-    font-family: 'Fira Code', monospace;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
+  border: 2px solid rgb(38, 207, 202);
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(19, 22, 30);
+  color: rgb(34, 180, 199);
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-    margin-bottom: 1vh;
-    cursor: pointer;
-    text-align: center;
+  margin-bottom: 1vh;
+  cursor: pointer;
+  text-align: center;
 }
 
 footer a {
-    color: rgb(34, 180, 199);
-    text-decoration: none;
-    transition:linear 0.1s;
+  color: rgb(34, 180, 199);
+  text-decoration: none;
+  transition: linear 0.1s;
 }
 
 footer a:hover {
-    color: rgb(15, 45, 122);
+  color: rgb(15, 45, 122);
 }
 
-.disabled { 
-    pointer-events: none;
-    color: grey;
-    border: 2px solid grey;
+.disabled {
+  pointer-events: none;
+  color: grey;
+  border: 2px solid grey;
 }
 
 @media only screen and (min-width: 550px) {
-    .contact-submit:hover {
-        background-color: rgb(15, 45, 70);
-    }
+  .contact-submit:hover {
+    background-color: rgb(15, 45, 70);
+  }
 }

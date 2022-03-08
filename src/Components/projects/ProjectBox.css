@@ -1,93 +1,100 @@
 .project-box {
-    z-index: 1;
-    overflow: hidden;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .project-box-detail-container {
-    display: grid;
-    grid-template-rows: 2fr 8fr 1.5fr;
+  display: grid;
+  grid-template-rows: 2fr 8fr 1.5fr;
 }
 
 .project-detail-box {
-    color: rgb(138, 160, 173);
-    display: grid;
-    align-items: flex-end;
-    position: relative;
-    height: 100%;
-    animation: fadeOut 8ss ease-in-out;
+  color: rgb(138, 160, 173);
+  display: grid;
+  align-items: flex-end;
+  position: relative;
+  height: 100%;
+  animation: fadeOut 8ss ease-in-out;
 }
 
 .project-images {
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0, 100%), rgba(0,0,0, 0%));
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 100%),
+    rgba(0, 0, 0, 0%)
+  );
 }
 
 .project-image-container {
-    position: absolute;
-    height: 50%;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .project-image-container div {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: black;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.95));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.95)
+  );
 }
 
 .project-detail-grid {
-    position: absolute;
-    height: 50%;
-    display: grid;
-    grid-template-rows: 1fr 2fr 4fr;
-    margin: 2vh 2vh 0 2vh;
+  position: absolute;
+  height: 50%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 4fr;
+  margin: 2vh 2vh 0 2vh;
 }
 
 .project-detail-num {
-    color: rgb(39, 213, 195);
+  color: rgb(39, 213, 195);
 }
 
 .project-detail-heading {
-    color: rgb(224, 238, 246);
-    font-size: 16px;
+  color: rgb(224, 238, 246);
+  font-size: 16px;
 }
 
 .project-detail-skill-grid {
-    display: flex;
-    align-items: center;
-    gap: 2vh;
-    flex-wrap: wrap;
-    margin: 2vh 0 2vh 0 ;
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  flex-wrap: wrap;
+  margin: 2vh 0 2vh 0;
 }
 
 .project-detail-skills {
-    border: 1px solid rgb(138, 160, 173);
-    padding: 0.1vh 2.5vh 0.3vh 2.5vh;
-    font-size: 14px;
+  border: 1px solid rgb(138, 160, 173);
+  padding: 0.1vh 2.5vh 0.3vh 2.5vh;
+  font-size: 14px;
 }
 
 .project-details {
-    font-size: 14px;
-
+  font-size: 14px;
 }
 
 .project-view {
-    color: rgb(39, 213, 195);
-    font-size: 20px;
-    cursor: pointer;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Fira Code', monospace;    
-    border-top: 1px solid rgb(77, 99, 111);
+  color: rgb(39, 213, 195);
+  font-size: 20px;
+  cursor: pointer;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fira Code", monospace;
+  border-top: 1px solid rgb(77, 99, 111);
 }
 
 @media only screen and (min-width: 550px) {
-    .project-view:hover {
-        background-color: rgb(15, 45, 70);
-    }
+  .project-view:hover {
+    background-color: rgb(15, 45, 70);
+  }
 }
