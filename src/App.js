@@ -32,22 +32,23 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <>
       <NavBar className="NavBar-component" />
-
-      <FadeInSection>
-        <Home className="Home-component" />
-      </FadeInSection>
-      <FadeInSection>
-        <AboutMe className="AboutMe-component" />
-      </FadeInSection>
-      <FadeInSection>
-        <Projects className="Projects" />
-      </FadeInSection>
-      <FadeInSection>
-        <Contact className="Contact" />
-      </FadeInSection>
-    </div>
+      <div className="App">
+        <FadeInSection>
+          <Home className="Home-component" />
+        </FadeInSection>
+        <FadeInSection>
+          <AboutMe className="AboutMe-component" />
+        </FadeInSection>
+        <FadeInSection>
+          <Projects className="Projects" />
+        </FadeInSection>
+        <FadeInSection>
+          <Contact className="Contact" />
+        </FadeInSection>
+      </div>
+    </>
   );
 }
 

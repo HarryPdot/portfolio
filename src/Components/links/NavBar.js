@@ -27,18 +27,9 @@ export default function NavBar() {
           color="#FFF"
         />
       </div>
-      <div
-        style={
-          isOpen
-            ? { backgroundColor: "rgba(0,0,0,0.5)", zIndex: 1 }
-            : { backgroundColor: "transparent" }
-        }
-        className="navbar-overlay"
-      >
+      <div>
         <div
-          className={
-            isOpen ? "navbar-container expanded" : "navbar-container collapsed"
-          }
+          className={isOpen ? "navbar-container expanded" : "navbar-container"}
         >
           <div className="links-container">
             <div>
@@ -71,6 +62,11 @@ export default function NavBar() {
           <Links></Links>
         </div>
       </div>
+      <div
+        className={
+          isOpen ? "disabled-overlay fadeInAnimation" : "disabled-overlay"
+        }
+      ></div>
     </>
   );
 }
