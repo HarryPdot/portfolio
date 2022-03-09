@@ -30,9 +30,7 @@ export default function Contact() {
     <div id="contact" className="contact-container">
       <div className="contact-container-2">
         <div className="contact-heading">Contact Me</div>
-        <div className="contact-description">
-          hello yes this is me I am working yes
-        </div>
+        <div className="contact-description"></div>
         <div className="contact-details">
           <input
             onChange={handleName}

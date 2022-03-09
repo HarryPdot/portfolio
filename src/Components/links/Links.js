@@ -1,6 +1,7 @@
 import "./Links.css";
 import { GoMarkGithub } from "react-icons/go";
 import { SiLinkedin } from "react-icons/si";
+import { BsInstagram } from "react-icons/bs";
 
 export default function Links() {
   return (
@@ -10,6 +11,9 @@ export default function Links() {
       </a>
       <a href="https://github.com/HarryPdot" target={"_blank"}>
         <GoMarkGithub className="link"></GoMarkGithub>
+      </a>
+      <a href="https://www.instagram.com/harryphamdev/" target={"_blank"}>
+        <BsInstagram className="link"></BsInstagram>
       </a>
     </div>
   );
