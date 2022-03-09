@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 import { Twirl as Hamburger } from "hamburger-react";
 import Links from "../links/Links";
+import { CSSTransition } from "react-transition-group";
 
 export default function NavBar() {
   const [isOpen, setOpen] = useState(false);
@@ -27,10 +28,18 @@ export default function NavBar() {
           color="#FFF"
         />
       </div>
-      <div>
-        <div
-          className={isOpen ? "navbar-container expanded" : "navbar-container"}
-        >
+      <CSSTransition
+        in={isOpen}
+        timeout={300}
+        className="navbar-container"
+        classNames={{
+          enter: "enter",
+          enterDone: "enterDone",
+          exitDone: "exitDone",
+          exitActive: "exitActive",
+        }}
+      >
+        <div>
           <div className="links-container">
             <div>
               <Link
@@ -61,7 +70,7 @@ export default function NavBar() {
           </div>
           <Links></Links>
         </div>
-      </div>
+      </CSSTransition>
       <div
         className={
           isOpen ? "disabled-overlay fadeInAnimation" : "disabled-overlay"
