@@ -13,10 +13,8 @@ export default function Projects() {
 
   return (
     <div id="project" className="projects-container">
-      <div>
-        <div className="project-heading">Projects</div>
-      </div>
       <div className="project-container-2">
+        <div className="project-heading">Projects</div>
         <div className="project-list">
           {projects.map((project, i) => {
             return (
