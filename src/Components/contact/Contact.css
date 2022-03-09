@@ -94,4 +94,8 @@ footer a:hover {
   .contact-submit:hover {
     background-color: rgb(15, 45, 70);
   }
+
+  .contact-container-2 {
+    width: 70%;
+  }
 }

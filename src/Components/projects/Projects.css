@@ -43,9 +43,18 @@
 }
 
 @media only screen and (min-width: 850px) {
+  #project > div:nth-child(1) {
+    width: 70%;
+  }
+
+  .project-heading {
+    padding: 2vh 0 0 0;
+  }
+
   .projects-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .project-container-2 {
@@ -60,9 +69,9 @@
   }
 
   .project-list {
-    width: 100%;
     flex-wrap: wrap;
     flex-direction: inherit;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 5vh;
   }
 }

@@ -16,6 +16,10 @@ export default function NavBar() {
     }
   }, [isOpen]);
 
+  const handleClick = () => {
+    setOpen(!isOpen);
+  };
+
   return (
     <>
       <div className="hamburger">
@@ -48,22 +52,41 @@ export default function NavBar() {
                 spy={true}
                 smooth={true}
                 duration={0}
+                onClick={handleClick}
               >
                 Home
               </Link>
             </div>
             <div>
-              <Link to="about" spy={true} smooth={true} duration={0}>
+              <Link
+                onClick={handleClick}
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
                 About
               </Link>
             </div>
             <div>
-              <Link to="project" spy={true} smooth={true} duration={0}>
+              <Link
+                onClick={handleClick}
+                to="project"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
                 Projects
               </Link>
             </div>
             <div>
-              <Link to="contact" spy={true} smooth={true} duration={0}>
+              <Link
+                onClick={handleClick}
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
                 Contact Me
               </Link>
             </div>

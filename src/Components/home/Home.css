@@ -74,6 +74,10 @@
 }
 
 @media only screen and (min-width: 550px) {
+  .home-box {
+    width: 70vw;
+  }
+
   .home-header {
     font-size: 3.5rem;
   }
