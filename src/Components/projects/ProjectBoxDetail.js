@@ -23,8 +23,12 @@ export default function ProjectBoxDetail({ project, setProjects, projects }) {
           {project.arr["detailed_description"]}
         </div>
         <div className="project-box-detail-skills-grid">
-          {skillArr.map((skill) => {
-            return <div className="project-box-detail-skills">{skill}</div>;
+          {skillArr.map((skill, i) => {
+            return (
+              <div className="project-box-detail-skills" key={i}>
+                {skill}
+              </div>
+            );
           })}
         </div>
       </div>
