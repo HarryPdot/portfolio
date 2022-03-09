@@ -34,13 +34,18 @@ export default function NavBar() {
       </div>
       <CSSTransition
         in={isOpen}
-        timeout={300}
+        timeout={{
+          appear: 350,
+          enter: 0,
+          exit: 350,
+        }}
         className="navbar-container"
         classNames={{
           enter: "enter",
           enterDone: "enterDone",
-          exitDone: "exitDone",
+          exit: "exit",
           exitActive: "exitActive",
+          exitDone: "exitDone",
         }}
       >
         <div>
