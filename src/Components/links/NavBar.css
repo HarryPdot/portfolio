@@ -52,9 +52,13 @@
   font-weight: bold;
 }
 
-.navbar-overlay div div {
+.links-container div {
   font-size: 30px;
   cursor: pointer;
+}
+
+.links-container div:hover {
+  color: rgb(15, 45, 122);
 }
 
 .disabled-overlay {
